@@ -4,7 +4,7 @@ This flask app has both Postgressql and Mysql endpoints as required. A Template 
 
 To run them first open python in command prompt, then do the following - 
 
-from multiple_databases import db
+from main import db
 db.create_all()
 
 then run  main.py
